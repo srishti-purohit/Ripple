@@ -1,64 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scenario | Ripple</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/scenario.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scenario | Ripple</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/scenario.css">
 </head>
 <body>
-    <nav class="navbar">
-        <a href="index.html" class="logo">RIPPLE</a>
+  <nav class="navbar">
+    <a href="index.html" class="logo">RIPPLE</a>
 
-        <div class="nav-links">
-            <a href="explore.html">Explore</a>
-            <a href="create.html">Create</a>
-            <a href="saved.html">Saved</a>
-        </div>
-    </nav>
+    <div class="nav-links">
+      <a href="explore.html">Explore</a>
+      <a href="create.html">Create</a>
+      <a href="saved.html">Saved</a>
+    </div>
+  </nav>
 
-    <main class="scenario-page">
-        <section class="scenario-hero">
-            <div class="scenario-meta">
-                <span id="scenarioNumber">01</span>
-                <span id="scenarioCategory">TECHNOLOGY</span>
-            </div>
+  <main class="scenario-page">
+    <section class="scenario-hero">
+      <div class="scenario-meta">
+        <span id="scenarioNumber">01</span>
+        <span id="scenarioCategory">TECHNOLOGY</span>
+      </div>
 
-            <p class="eyebrow">THE SCENARIO</p>
+      <p class="eyebrow">THE SCENARIO</p>
 
-            <h1 id="scenarioTitle">What if cars never existed?</h1>
+      <h1 id="scenarioTitle">What if cars never existed?</h1>
 
-            <p class="scenario-intro" id="scenarioIntro">
-                How would cities, travel, work and everyday life look
-                if the automobile had never been invented?
-            </p>
+      <p class="scenario-intro" id="scenarioIntro">
+        How would cities, travel, work and everyday life look
+        if the automobile had never been invented?
+      </p>
 
-            <button class="start-button" id="startButton">
-                Follow the ripple
-                <span>↓</span>
-            </button>
-        </section>
+      <button class="start-button" id="startButton">
+        Follow the ripple
+        <span>↓</span>
+      </button>
+    </section>
 
-        <section class="ripple-intro" id="rippleIntro">
-            <div class="section-label">
-                <span>THE RIPPLE</span>
-                <span>01 / 05</span>
-            </div>
+    <section class="ripple-intro" id="rippleIntro">
+      <div class="section-label">
+        <span>THE RIPPLE</span>
+        <span>01 / 05</span>
+      </div>
 
-            <div class="ripple-content">
-                <h2>One change.<br><span>Everything connected.</span></h2>
+      <div class="ripple-content">
+        <h2>One change.<br><span>Everything connected.</span></h2>
 
-                <p>
-                    Removing cars doesn't only change transportation.
-                    It affects where people live, how cities grow,
-                    how goods move, how we work, and what our streets become.
-                </p>
-            </div>
-        </section>
+        <p>
+          Removing cars doesn't just change transportation.
+          It affects where people live, how cities grow,
+          how goods move, how we work, and what our streets become.
+        </p>
+      </div>
+    </section>
 
-        <section class="effects">
-            <div class="section-label">
-                <span>FIRST-ORDER EFFECTS</span>
-                <span>02 / 05</span>
-            </div>
+    <section class="effects">
+      <div class="section-label">
+        <span>FIRST-ORDER EFFECTS</span>
+        <span>02 / 05</span>
+      </div>
+
+      <div class="effect-grid">
+        <article class="effect-card">
+          <span>01</span>
+          <h3>Transportation</h3>
+          <p>
+            Public transport becomes the backbone of everyday travel.
+            Walking and cycling become much more common.
+          </p>
+        </article>
+
+        <article class="effect-card">
+          <span>02</span>
+          <h3>Cities</h3>
+          <p>
+            Streets need less space for roads and parking,
+            changing how cities are designed.
+          </p>
+        </article>
+
+        <article class="effect-card">
+          <span>03</span>
+          <h3>Economy</h3>
+          <p>
+            Entire industries never emerge while other industries
+            grow around alternative forms of transportation.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="continue-section">
+      <p class="eyebrow">READY TO GO DEEPER?</p>
+
+      <h2>Follow the consequences.</h2>
+
+      <div class="scenario-actions">
+        <a href="timeline.html?scenario=cars" class="primary-button">
+          View timeline
+          <span>→</span>
+        </a>
+
+        <a href="ripple-map.html?scenario=cars" class="secondary-button">
+          Explore ripple map
+          <span>↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>RIPPLE © 2026</p>
+    <p>Change one thing. Follow the ripple.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/scenario.js"></script>
+</body>
+</html>
